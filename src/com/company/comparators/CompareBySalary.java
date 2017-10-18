@@ -10,7 +10,6 @@ public class CompareBySalary {
         return new Comparator<Worker>() {
             @Override
             public int compare(Worker o1, Worker o2) {
-                System.out.println("Sorting by salary!");
                 return (int) (o1.getSalary() - o2.getSalary());
             }
         };

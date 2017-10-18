@@ -10,7 +10,6 @@ public class CompareByName {
         return new Comparator<Worker>() {
             @Override
             public int compare(Worker o1, Worker o2) {
-                System.out.println("Sorting by name!");
                 return o1.getName().compareTo(o2.getName());
             }
         };
